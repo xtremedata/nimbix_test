@@ -1,5 +1,5 @@
 #FROM nvidia/cuda:7.5-runtime-ubuntu14.04
-FROM nimbix/centos-base:6
+FROM nimbix/centos-base:7
 
 ADD helloWorld /usr/bin/
 #RUN apt-get update && apt-get -y --force-yes install cuda-samples-7.5 && apt-get clean
