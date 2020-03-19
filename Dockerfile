@@ -6,4 +6,4 @@ ADD /helloWorld /usr/bin/
 #RUN ln -s /usr/local/cuda/samples/1_Utilities/deviceQuery/deviceQuery /usr/bin
 
 
-#ADD ./NAE/help.html /etc/NAE/help.html
+ADD ./NAE/help.html /etc/NAE/help.html
